@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1032EAD2ACD618400905F5C /* Protocol NavBarListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1032EAC2ACD618400905F5C /* Protocol NavBarListener.swift */; };
+		F1032EAF2ACD978A00905F5C /* CalendarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1032EAE2ACD978A00905F5C /* CalendarPicker.swift */; };
+		F1032EB12ACDF60500905F5C /* Camera_RoversFilterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1032EB02ACDF60500905F5C /* Camera_RoversFilterPicker.swift */; };
+		F1032EB32ACE2F2100905F5C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1032EB22ACE2F2100905F5C /* HistoryViewController.swift */; };
+		F1032EB62ACE913700905F5C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F1032EB52ACE913700905F5C /* Alamofire */; };
+		F1032EBA2ACE9EE900905F5C /* SpaceCameraImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1032EB92ACE9EE900905F5C /* SpaceCameraImages.swift */; };
+		F1032EBD2ACEA6CF00905F5C /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F1032EBC2ACEA6CF00905F5C /* SwiftyJSON */; };
+		F1032EC02AD31BC700905F5C /* moa in Frameworks */ = {isa = PBXBuildFile; productRef = F1032EBF2AD31BC700905F5C /* moa */; };
+		F1032EC22AD328F400905F5C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1032EC12AD328F400905F5C /* ImageView.swift */; };
+		F1032EC62AD415CF00905F5C /* Potocol Cell Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1032EC52AD415CF00905F5C /* Potocol Cell Listener.swift */; };
+		F1032EC92AD4165500905F5C /* Extension CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1032EC82AD4165500905F5C /* Extension CALayer.swift */; };
+		F1032EDF2AD4445500905F5C /* HistoryTableViewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1032EDD2AD4445500905F5C /* HistoryTableViewcell.swift */; };
+		F1032EE02AD4445500905F5C /* HistoryTableViewcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1032EDE2AD4445500905F5C /* HistoryTableViewcell.xib */; };
+		F1032EE52AD4B30000905F5C /* HistorySeacrhParam+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1032EE32AD4B30000905F5C /* HistorySeacrhParam+CoreDataClass.swift */; };
+		F1032EE62AD4B30000905F5C /* HistorySeacrhParam+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1032EE42AD4B30000905F5C /* HistorySeacrhParam+CoreDataProperties.swift */; };
 		F125202D2ACC033C00F1CAA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125202C2ACC033C00F1CAA6 /* AppDelegate.swift */; };
 		F125202F2ACC033C00F1CAA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125202E2ACC033C00F1CAA6 /* SceneDelegate.swift */; };
 		F12520312ACC033C00F1CAA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12520302ACC033C00F1CAA6 /* ViewController.swift */; };
@@ -14,9 +29,27 @@
 		F12520372ACC033C00F1CAA6 /* MARS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F12520352ACC033C00F1CAA6 /* MARS.xcdatamodeld */; };
 		F12520392ACC033C00F1CAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12520382ACC033C00F1CAA6 /* Assets.xcassets */; };
 		F125203C2ACC033C00F1CAA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F125203A2ACC033C00F1CAA6 /* LaunchScreen.storyboard */; };
+		F12520442ACC1C6E00F1CAA6 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12520432ACC1C6E00F1CAA6 /* CustomNavigationBar.swift */; };
+		F12520462ACC1C8D00F1CAA6 /* CustomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12520452ACC1C8D00F1CAA6 /* CustomNavigationBar.xib */; };
+		F125209E2ACC24C700F1CAA6 /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F125206F2ACC24C600F1CAA6 /* SF-Pro.ttf */; };
+		F12520A92ACCB1B600F1CAA6 /* MarsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12520A72ACCB1B600F1CAA6 /* MarsTableViewCell.swift */; };
+		F12520AA2ACCB1B600F1CAA6 /* MarsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12520A82ACCB1B600F1CAA6 /* MarsTableViewCell.xib */; };
+		F12520AC2ACCC2DF00F1CAA6 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12520AB2ACCC2DF00F1CAA6 /* UILabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1032EAC2ACD618400905F5C /* Protocol NavBarListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocol NavBarListener.swift"; sourceTree = "<group>"; };
+		F1032EAE2ACD978A00905F5C /* CalendarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPicker.swift; sourceTree = "<group>"; };
+		F1032EB02ACDF60500905F5C /* Camera_RoversFilterPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_RoversFilterPicker.swift; sourceTree = "<group>"; };
+		F1032EB22ACE2F2100905F5C /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		F1032EB92ACE9EE900905F5C /* SpaceCameraImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceCameraImages.swift; sourceTree = "<group>"; };
+		F1032EC12AD328F400905F5C /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		F1032EC52AD415CF00905F5C /* Potocol Cell Listener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Potocol Cell Listener.swift"; sourceTree = "<group>"; };
+		F1032EC82AD4165500905F5C /* Extension CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension CALayer.swift"; sourceTree = "<group>"; };
+		F1032EDD2AD4445500905F5C /* HistoryTableViewcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewcell.swift; sourceTree = "<group>"; };
+		F1032EDE2AD4445500905F5C /* HistoryTableViewcell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewcell.xib; sourceTree = "<group>"; };
+		F1032EE32AD4B30000905F5C /* HistorySeacrhParam+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistorySeacrhParam+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F1032EE42AD4B30000905F5C /* HistorySeacrhParam+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistorySeacrhParam+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F12520292ACC033C00F1CAA6 /* MARS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MARS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F125202C2ACC033C00F1CAA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F125202E2ACC033C00F1CAA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +59,12 @@
 		F12520382ACC033C00F1CAA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F125203B2ACC033C00F1CAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F125203D2ACC033C00F1CAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12520432ACC1C6E00F1CAA6 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		F12520452ACC1C8D00F1CAA6 /* CustomNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNavigationBar.xib; sourceTree = "<group>"; };
+		F125206F2ACC24C600F1CAA6 /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
+		F12520A72ACCB1B600F1CAA6 /* MarsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsTableViewCell.swift; sourceTree = "<group>"; };
+		F12520A82ACCB1B600F1CAA6 /* MarsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarsTableViewCell.xib; sourceTree = "<group>"; };
+		F12520AB2ACCC2DF00F1CAA6 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,15 +72,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1032EC02AD31BC700905F5C /* moa in Frameworks */,
+				F1032EBD2ACEA6CF00905F5C /* SwiftyJSON in Frameworks */,
+				F1032EB62ACE913700905F5C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1032EC32AD4138B00905F5C /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				F12520432ACC1C6E00F1CAA6 /* CustomNavigationBar.swift */,
+				F12520452ACC1C8D00F1CAA6 /* CustomNavigationBar.xib */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		F1032EC42AD413A800905F5C /* MainTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1032EC12AD328F400905F5C /* ImageView.swift */,
+				F12520A72ACCB1B600F1CAA6 /* MarsTableViewCell.swift */,
+				F12520A82ACCB1B600F1CAA6 /* MarsTableViewCell.xib */,
+			);
+			path = MainTableViewCell;
+			sourceTree = "<group>";
+		};
+		F1032EC72AD415F200905F5C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F1032EAC2ACD618400905F5C /* Protocol NavBarListener.swift */,
+				F1032EC52AD415CF00905F5C /* Potocol Cell Listener.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F1032ECA2AD4197200905F5C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F125202C2ACC033C00F1CAA6 /* AppDelegate.swift */,
+				F125202E2ACC033C00F1CAA6 /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F1032ECB2AD4396F00905F5C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F1032EC82AD4165500905F5C /* Extension CALayer.swift */,
+				F12520AB2ACCC2DF00F1CAA6 /* UILabel.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F1032ED42AD43AD900905F5C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F1032EE12AD4445B00905F5C /* History TV Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F1032EDE2AD4445500905F5C /* HistoryTableViewcell.xib */,
+				F1032EDD2AD4445500905F5C /* HistoryTableViewcell.swift */,
+			);
+			path = "History TV Cell";
+			sourceTree = "<group>";
+		};
+		F1032EE22AD4448F00905F5C /* Picker Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1032EB02ACDF60500905F5C /* Camera_RoversFilterPicker.swift */,
+				F1032EAE2ACD978A00905F5C /* CalendarPicker.swift */,
+			);
+			path = "Picker Controllers";
+			sourceTree = "<group>";
+		};
 		F12520202ACC033C00F1CAA6 = {
 			isa = PBXGroup;
 			children = (
+				F1032EE32AD4B30000905F5C /* HistorySeacrhParam+CoreDataClass.swift */,
+				F12520352ACC033C00F1CAA6 /* MARS.xcdatamodeld */,
+				F1032EE42AD4B30000905F5C /* HistorySeacrhParam+CoreDataProperties.swift */,
+				F1032ED42AD43AD900905F5C /* CoreData */,
 				F125202B2ACC033C00F1CAA6 /* MARS */,
 				F125202A2ACC033C00F1CAA6 /* Products */,
 			);
@@ -58,16 +175,31 @@
 		F125202B2ACC033C00F1CAA6 /* MARS */ = {
 			isa = PBXGroup;
 			children = (
-				F125202C2ACC033C00F1CAA6 /* AppDelegate.swift */,
-				F125202E2ACC033C00F1CAA6 /* SceneDelegate.swift */,
+				F1032ECA2AD4197200905F5C /* Common */,
+				F1032EB92ACE9EE900905F5C /* SpaceCameraImages.swift */,
 				F12520302ACC033C00F1CAA6 /* ViewController.swift */,
+				F1032EC42AD413A800905F5C /* MainTableViewCell */,
+				F1032EE22AD4448F00905F5C /* Picker Controllers */,
+				F1032EB22ACE2F2100905F5C /* HistoryViewController.swift */,
+				F1032EE12AD4445B00905F5C /* History TV Cell */,
+				F1032EC32AD4138B00905F5C /* NavigationBar */,
+				F1032ECB2AD4396F00905F5C /* Extensions */,
+				F1032EC72AD415F200905F5C /* Protocols */,
 				F12520322ACC033C00F1CAA6 /* Main.storyboard */,
+				F12520472ACC244E00F1CAA6 /* Fonts */,
 				F12520382ACC033C00F1CAA6 /* Assets.xcassets */,
 				F125203A2ACC033C00F1CAA6 /* LaunchScreen.storyboard */,
 				F125203D2ACC033C00F1CAA6 /* Info.plist */,
-				F12520352ACC033C00F1CAA6 /* MARS.xcdatamodeld */,
 			);
 			path = MARS;
+			sourceTree = "<group>";
+		};
+		F12520472ACC244E00F1CAA6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F125206F2ACC24C600F1CAA6 /* SF-Pro.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +218,11 @@
 			dependencies = (
 			);
 			name = MARS;
+			packageProductDependencies = (
+				F1032EB52ACE913700905F5C /* Alamofire */,
+				F1032EBC2ACEA6CF00905F5C /* SwiftyJSON */,
+				F1032EBF2AD31BC700905F5C /* moa */,
+			);
 			productName = MARS;
 			productReference = F12520292ACC033C00F1CAA6 /* MARS.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +251,11 @@
 				Base,
 			);
 			mainGroup = F12520202ACC033C00F1CAA6;
+			packageReferences = (
+				F1032EB42ACE913700905F5C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F1032EBB2ACEA6CF00905F5C /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				F1032EBE2AD31BC700905F5C /* XCRemoteSwiftPackageReference "moa" */,
+			);
 			productRefGroup = F125202A2ACC033C00F1CAA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,7 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F125203C2ACC033C00F1CAA6 /* LaunchScreen.storyboard in Resources */,
+				F12520AA2ACCB1B600F1CAA6 /* MarsTableViewCell.xib in Resources */,
 				F12520392ACC033C00F1CAA6 /* Assets.xcassets in Resources */,
+				F125209E2ACC24C700F1CAA6 /* SF-Pro.ttf in Resources */,
+				F12520462ACC1C8D00F1CAA6 /* CustomNavigationBar.xib in Resources */,
+				F1032EE02AD4445500905F5C /* HistoryTableViewcell.xib in Resources */,
 				F12520342ACC033C00F1CAA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +287,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1032EC92AD4165500905F5C /* Extension CALayer.swift in Sources */,
+				F1032EBA2ACE9EE900905F5C /* SpaceCameraImages.swift in Sources */,
+				F12520442ACC1C6E00F1CAA6 /* CustomNavigationBar.swift in Sources */,
 				F12520372ACC033C00F1CAA6 /* MARS.xcdatamodeld in Sources */,
+				F12520AC2ACCC2DF00F1CAA6 /* UILabel.swift in Sources */,
+				F1032EC62AD415CF00905F5C /* Potocol Cell Listener.swift in Sources */,
+				F1032EE62AD4B30000905F5C /* HistorySeacrhParam+CoreDataProperties.swift in Sources */,
+				F1032EE52AD4B30000905F5C /* HistorySeacrhParam+CoreDataClass.swift in Sources */,
+				F1032EAF2ACD978A00905F5C /* CalendarPicker.swift in Sources */,
+				F1032EAD2ACD618400905F5C /* Protocol NavBarListener.swift in Sources */,
+				F1032EB32ACE2F2100905F5C /* HistoryViewController.swift in Sources */,
+				F1032EDF2AD4445500905F5C /* HistoryTableViewcell.swift in Sources */,
 				F12520312ACC033C00F1CAA6 /* ViewController.swift in Sources */,
+				F1032EB12ACDF60500905F5C /* Camera_RoversFilterPicker.swift in Sources */,
+				F1032EC22AD328F400905F5C /* ImageView.swift in Sources */,
+				F12520A92ACCB1B600F1CAA6 /* MarsTableViewCell.swift in Sources */,
 				F125202D2ACC033C00F1CAA6 /* AppDelegate.swift in Sources */,
 				F125202F2ACC033C00F1CAA6 /* SceneDelegate.swift in Sources */,
 			);
@@ -298,6 +458,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,9 +466,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.testProduct.MARS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,6 +489,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,9 +497,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.testProduct.MARS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -360,6 +528,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F1032EB42ACE913700905F5C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F1032EBB2ACEA6CF00905F5C /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F1032EBE2AD31BC700905F5C /* XCRemoteSwiftPackageReference "moa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/moa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F1032EB52ACE913700905F5C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1032EB42ACE913700905F5C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F1032EBC2ACEA6CF00905F5C /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1032EBB2ACEA6CF00905F5C /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		F1032EBF2AD31BC700905F5C /* moa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1032EBE2AD31BC700905F5C /* XCRemoteSwiftPackageReference "moa" */;
+			productName = moa;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F12520352ACC033C00F1CAA6 /* MARS.xcdatamodeld */ = {

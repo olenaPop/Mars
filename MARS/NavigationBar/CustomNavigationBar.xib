@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro.ttf">
+            <string>SFPro-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomNavigationBar" customModule="MARS" customModuleProvider="target">
+            <connections>
+                <outlet property="MARSName" destination="qNi-XB-BuU" id="fqP-uw-f0w"/>
+                <outlet property="calendar" destination="PZl-cd-Aw6" id="YHI-SJ-tLt"/>
+                <outlet property="cameraFltr" destination="LME-8D-dxz" id="ShU-XK-urb"/>
+                <outlet property="customeView" destination="yAB-aJ-lxh" id="o7x-Vi-igx"/>
+                <outlet property="dateLBl" destination="E3f-GI-97l" id="hqb-4l-ILM"/>
+                <outlet property="roverFltr" destination="Txu-mD-HjM" id="ppj-Pt-ESD"/>
+                <outlet property="saveFltr" destination="rWJ-uG-0eX" id="5Kb-St-HHT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="202"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="yAB-aJ-lxh">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="202"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZl-cd-Aw6" userLabel="calendar">
+                            <rect key="frame" x="335" y="68" width="44" height="44"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="BRQ-Zz-hne"/>
+                                <constraint firstAttribute="height" constant="44" id="n1v-A2-X1Y"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" image="calendar" title=" "/>
+                            <connections>
+                                <action selector="onCalendarPressed:" destination="-1" eventType="touchUpInside" id="4ws-CY-gsL"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Txu-mD-HjM" userLabel="roverFltr">
+                            <rect key="frame" x="20" y="144" width="140" height="38"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="140" id="GHR-0G-qYC"/>
+                                <constraint firstAttribute="height" constant="38" id="tli-dv-vkS"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFPro-Medium" family="SF Pro" pointSize="18"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="All">
+                                <color key="titleColor" red="0.20638020830000001" green="0.20638020830000001" blue="0.20638020830000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </state>
+                            <connections>
+                                <action selector="onRoverPressed:" destination="-1" eventType="touchUpInside" id="nft-yp-cyS"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LME-8D-dxz" userLabel="cameraFltr">
+                            <rect key="frame" x="175" y="144" width="140" height="38"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="38" id="Lcf-5d-ZS5"/>
+                                <constraint firstAttribute="width" constant="140" id="yKQ-Cc-eRu"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SFPro-Medium" family="SF Pro" pointSize="18"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="All">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="onCameraPressed:" destination="-1" eventType="touchUpInside" id="EpY-bv-FHA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rWJ-uG-0eX" userLabel="saveBttn">
+                            <rect key="frame" x="333" y="144" width="38" height="38"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="38" id="GwM-MQ-RYj"/>
+                                <constraint firstAttribute="width" constant="38" id="lRc-eN-IcR"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title=" "/>
+                            <connections>
+                                <action selector="onSavePressed:" destination="-1" eventType="touchUpInside" id="PfD-5g-cuP"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MARS.CAMERA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNi-XB-BuU">
+                            <rect key="frame" x="19.999999999999986" y="56" width="238.66666666666663" height="40.666666666666657"/>
+                            <fontDescription key="fontDescription" name="SFPro-Medium" family="SF Pro" pointSize="34"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3f-GI-97l">
+                            <rect key="frame" x="20" y="99.666666666666671" width="45" height="21"/>
+                            <fontDescription key="fontDescription" name="SFPro-Medium" family="SF Pro" pointSize="18"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.41176470588235292" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Txu-mD-HjM" firstAttribute="top" secondItem="yAB-aJ-lxh" secondAttribute="top" constant="144" id="1Cj-cT-LGR"/>
+                        <constraint firstAttribute="bottom" secondItem="rWJ-uG-0eX" secondAttribute="bottom" constant="20" symbolic="YES" id="43W-HL-P2T"/>
+                        <constraint firstItem="rWJ-uG-0eX" firstAttribute="top" secondItem="PZl-cd-Aw6" secondAttribute="bottom" constant="32" id="62r-Jf-Z0u"/>
+                        <constraint firstItem="LME-8D-dxz" firstAttribute="leading" secondItem="Txu-mD-HjM" secondAttribute="trailing" constant="15" id="8v1-Iz-1Sd"/>
+                        <constraint firstItem="E3f-GI-97l" firstAttribute="leading" secondItem="yAB-aJ-lxh" secondAttribute="leading" constant="20" symbolic="YES" id="BNc-ui-yoJ"/>
+                        <constraint firstItem="E3f-GI-97l" firstAttribute="top" secondItem="qNi-XB-BuU" secondAttribute="bottom" constant="3" id="GgM-Af-8GZ"/>
+                        <constraint firstItem="LME-8D-dxz" firstAttribute="top" secondItem="yAB-aJ-lxh" secondAttribute="top" constant="144" id="Rud-a6-Fbc"/>
+                        <constraint firstItem="PZl-cd-Aw6" firstAttribute="top" secondItem="yAB-aJ-lxh" secondAttribute="top" constant="68" id="Tuk-pP-ZiZ"/>
+                        <constraint firstItem="Txu-mD-HjM" firstAttribute="leading" secondItem="yAB-aJ-lxh" secondAttribute="leading" constant="20" id="W76-5d-BTZ"/>
+                        <constraint firstAttribute="trailing" secondItem="PZl-cd-Aw6" secondAttribute="trailing" constant="14" id="Wvu-sH-pAc"/>
+                        <constraint firstItem="qNi-XB-BuU" firstAttribute="leading" secondItem="yAB-aJ-lxh" secondAttribute="leading" constant="20" symbolic="YES" id="YFT-6K-WuQ"/>
+                        <constraint firstAttribute="trailing" secondItem="rWJ-uG-0eX" secondAttribute="trailing" constant="22" id="Zmw-fM-pfo"/>
+                        <constraint firstItem="PZl-cd-Aw6" firstAttribute="leading" secondItem="yAB-aJ-lxh" secondAttribute="leading" constant="335" id="igR-A0-cni"/>
+                        <constraint firstItem="rWJ-uG-0eX" firstAttribute="leading" secondItem="LME-8D-dxz" secondAttribute="trailing" constant="18" id="npO-ia-lG5"/>
+                        <constraint firstItem="qNi-XB-BuU" firstAttribute="top" secondItem="yAB-aJ-lxh" secondAttribute="top" constant="56" id="u4K-G0-hKU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="yAB-aJ-lxh" secondAttribute="bottom" id="7rs-V2-OhX"/>
+                <constraint firstItem="yAB-aJ-lxh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="9WX-4c-CQG"/>
+                <constraint firstItem="yAB-aJ-lxh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HZ1-z1-Njs"/>
+                <constraint firstItem="yAB-aJ-lxh" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="K4C-bi-N2S"/>
+                <constraint firstAttribute="bottom" secondItem="yAB-aJ-lxh" secondAttribute="bottom" id="O2G-7h-0Cd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="101.5267175572519" y="-217.60563380281693"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="calendar" width="30" height="34"/>
+    </resources>
+</document>
